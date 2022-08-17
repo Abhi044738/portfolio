@@ -1,3 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+
+
+:root{
+    --primary-color:red;
+    --secondary-color:white;
+}
+hr{
+    margin:5rem 0rem; 
+}
+
+
 body{
+     font-family: 'Lato', sans-serif;
+     margin: 0rem;
+     max-width: 99%;
+}
+h1{
+    font-family: 'Arvo', serif;
+}
+
+.margin{
+    padding: 1rem 0rem;
+    border:1rem 0rem;
+}
+
+
+/*containors**/
+.containers{
+    padding:0rem 1rem;
+}
+.container-center{
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+
+
+}
+.normal-container{
+
+}
+.left-containor{
+
+}
+.right-containor{
+
+}
+.top-containor{
+
+}
+.buttom-containor{
+
+}
+
+
+
+/*links**/
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.primary-links{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: aliceblue;
+
+}
+.secondary-links{
+    background-color: var(--secondary-color);
+    border-radius: 00.5rem;
+    border: 1px solid var(--primary-color);
+    color:var(--primary-color);
+}
+
+
+
+
+
+/*list**/
+.list{
+    list-style: none;
+
+}
+
+.unorder-inline-list{
+    display:inline;
+    padding: 0rem 0.5rem;
+}
+
+/*nav**/
+/*margins and layout**/
+.nav-margin{
+    margin:0.8rem 1rem;
+    padding:0rem 2rem; 
+}
+.navigation{
+    background-color: aqua;
     color: brown;
+    border-radius: 0.8rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.lis-in-nav-aliment{
+    text-align: right;
+}
+
+.navigation .link{
+    color: white;
+}
+
+.navigation .link-active{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.nav-heading{
+    margin: 0rem;
+    font-weight: bolder;
+}
+
+/*header**/
+header{
+    padding:2rem;
+    padding-top: 4rem;
+}
+
+/*section**/
+section{
+    border-radius: 1rem;
+}
+.ow{
+    background-color: darkgrey;
+}
+
+
+/*footer**/
+
+.footer-design{
+    background-color: aqua;
+    color: brown;
+    border-radius: 0.8rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.footer-margin{
+    padding:0.5rem 0.5rem;
+    text-align: center;
+}
+
+/*project.html**/
+.date{
+    text-align: right;
 }
