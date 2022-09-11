@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 
 :root{
-    --primary-color:red;
+    --primary-color:#ef4444;
     --secondary-color:white;
+    --tertiary-color:#80C4B7;
 }
 hr{
     margin:5rem 0rem; 
@@ -13,11 +14,14 @@ hr{
 
 body{
      font-family: 'Lato', sans-serif;
-     margin: 0rem;
-     max-width: 99%;
+     margin: auto;
+     max-width: 99.5%;
 }
 h1{
-    font-family: 'Arvo', serif;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5rem;
+
+
 }
 
 .margin{
@@ -57,11 +61,12 @@ h1{
 
 /*links**/
 .link{
+    color: white;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 .primary-links{
-    background-color: var(--primary-color);
+    background-color: #06b6d4;
     border-radius: 0.5rem;
     color: aliceblue;
 
@@ -95,11 +100,12 @@ h1{
     padding:0rem 2rem; 
 }
 .navigation{
-    background-color: aqua;
-    color: brown;
-    border-radius: 0.8rem;
+    background-color:var(--tertiary-color);
+    color: #E3856B;
+    border-end-end-radius: 0.8rem;
     font-weight: bold;
     font-size: 1.5rem;
+    font-family: 'Great Vibes', cursive;
 }
 
 .lis-in-nav-aliment{
@@ -111,12 +117,14 @@ h1{
 }
 
 .navigation .link-active{
-    font-size: 2rem;
+    font-size: 3.8rem;
     font-weight: bolder;
 }
 .nav-heading{
     margin: 0rem;
+    margin-left: 0.5rem;
     font-weight: bolder;
+    font-size: 2rem;
 }
 
 /*header**/
@@ -124,32 +132,45 @@ header{
     padding:2rem;
     padding-top: 4rem;
 }
+.headerimage{
+    margin: auto;
+    display: block;
+    max-width: 500px;
+}
 
 /*section**/
 section{
     border-radius: 1rem;
 }
 .ow{
-    background-color: darkgrey;
+    background-color: #d4d4d8;
 }
 
 
 /*footer**/
 
 .footer-design{
-    background-color: aqua;
-    color: brown;
+    background-color:var(--tertiary-color);
+    color: #E3856B;
     border-radius: 0.8rem;
     font-weight: bold;
     font-size: 1.5rem;
+    font-family: 'Great Vibes', cursive;
 }
 
 .footer-margin{
     padding:0.5rem 0.5rem;
     text-align: center;
+    color: white;
 }
 
 /*project.html**/
 .date{
     text-align: right;
 }
+
+
+.textlarge{
+    font-size: 2.5rem;
+}
+
