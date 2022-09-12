@@ -1,162 +1,143 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 
-
-:root{
-    --primary-color:#ef4444;
-    --secondary-color:white;
-    --tertiary-color:#80C4B7;
+:root {
+  --primary-color: #ef4444;
+  --secondary-color: white;
+  --tertiary-color: #80c4b7;
 }
-hr{
-    margin:5rem 0rem; 
-}
-
-
-body{
-     font-family: 'Lato', sans-serif;
-     margin: auto;
-     max-width: 99.5%;
-}
-h1{
-    font-family: 'Great Vibes', cursive;
-    font-size: 2.5rem;
-
-
+hr {
+  margin: 5rem 0rem;
 }
 
-.margin{
-    padding: 1rem 0rem;
-    border:1rem 0rem;
+body {
+  font-family: "Lato", sans-serif;
+  margin: auto;
+  max-width: 99.5%;
+}
+h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 2.5rem;
 }
 
+.margin {
+  padding: 1rem 0rem;
+  border: 1rem 0rem;
+}
 
 /*containors**/
-.containers{
-    padding:0rem 1rem;
+.containers {
+  padding: 0rem 1rem;
 }
-.container-center{
-    text-align: center;
-    max-width: 1000px;
-    margin: auto;
-
-
+.container-center {
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
 }
-
-
-
 
 /*links**/
-.link{
-    color: white;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
+.link {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
 }
-.primary-links{
-    background-color: #06b6d4;
-    border-radius: 0.5rem;
-    color: aliceblue;
-
+.primary-links {
+  background-color: #06b6d4;
+  border-radius: 0.5rem;
+  color: aliceblue;
 }
-.secondary-links{
-    background-color: var(--secondary-color);
-    border-radius: 00.5rem;
-    border: 1px solid var(--primary-color);
-    color:var(--primary-color);
+.secondary-links {
+  background-color: var(--secondary-color);
+  border-radius: 00.5rem;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
 }
-
-
-
-
 
 /*list**/
-.list{
-    list-style: none;
-
+.list {
+  list-style: none;
 }
 
-.unorder-inline-list{
-    display:inline;
-    padding: 0rem 0.5rem;
+.unorder-inline-list {
+  display: inline;
+  padding: 0rem 0.5rem;
 }
 
 /*nav**/
 /*margins and layout**/
-.nav-margin{
-    margin:0.8rem 1rem;
-    padding:0rem 2rem; 
+.nav-margin {
+  margin: 0.8rem 1rem;
+  padding: 0rem 2rem;
 }
-.navigation{
-    background-color:var(--tertiary-color);
-    color: #E3856B;
-    border-end-end-radius: 0.8rem;
-    font-weight: bold;
-    font-size: 1.5rem;
-    font-family: 'Great Vibes', cursive;
-}
-
-.lis-in-nav-aliment{
-    text-align: right;
+.navigation {
+  background-color: var(--tertiary-color);
+  color: #e3856b;
+  border-end-end-radius: 0.8rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: "Great Vibes", cursive;
 }
 
-.navigation .link{
-    color: white;
+.lis-in-nav-aliment {
+  text-align: right;
 }
 
-.navigation .link-active{
-    font-size: 3.8rem;
-    font-weight: bolder;
+.navigation .link {
+  color: white;
 }
-.nav-heading{
-    margin: 0rem;
-    margin-left: 0.5rem;
-    font-weight: bolder;
-    font-size: 2rem;
+
+.navigation .link-active {
+  font-size: 3.8rem;
+  font-weight: bolder;
+}
+.nav-heading {
+  margin: 0rem;
+  margin-left: 0.5rem;
+  font-weight: bolder;
+  font-size: 2rem;
 }
 
 /*header**/
-header{
-    padding:2rem;
-    padding-top: 4rem;
+header {
+  padding: 2rem;
+  padding-top: 4rem;
 }
-.headerimage{
-    margin: auto;
-    display: block;
-    max-width: 500px;
+.headerimage {
+  margin: auto;
+  display: block;
+  width: 40%;
 }
 
 /*section**/
-section{
-    border-radius: 1rem;
+section {
+  border-radius: 1rem;
 }
-.ow{
-    background-color: #d4d4d8;
+.ow {
+  background-color: #d4d4d8;
 }
-
 
 /*footer**/
 
-.footer-design{
-    background-color:var(--tertiary-color);
-    color: #E3856B;
-    border-radius: 0.8rem;
-    font-weight: bold;
-    font-size: 1.5rem;
-    font-family: 'Great Vibes', cursive;
+.footer-design {
+  background-color: var(--tertiary-color);
+  color: #e3856b;
+  border-radius: 0.8rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: "Great Vibes", cursive;
 }
 
-.footer-margin{
-    padding:0.5rem 0.5rem;
-    text-align: center;
-    color: white;
+.footer-margin {
+  padding: 0.5rem 0.5rem;
+  text-align: center;
+  color: white;
 }
 
 /*project.html**/
-.date{
-    text-align: right;
+.date {
+  text-align: right;
 }
 
-
-.textlarge{
-    font-size: 2.5rem;
+.textlarge {
+  font-size: 2.5rem;
 }
-
